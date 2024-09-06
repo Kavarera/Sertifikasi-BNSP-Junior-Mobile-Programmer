@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:iconTint="@android:color/white"
+    >
+    <item
+
+        android:id="@+id/action_settings"
+        android:title="@string/add_new_task"
+        android:titleTextColor="@android:color/white"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        app:iconTint="@android:color/white"
+        />
+    <item
+        android:id="@+id/about"
+        android:title="@string/about"
+        android:titleTextColor="@android:color/white"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        app:iconTint="@android:color/white"
+        />
+</menu>
